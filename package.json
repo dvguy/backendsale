@@ -1,0 +1,27 @@
+{
+  "name": "puntoventa",
+  "version": "1.0.0",
+  "description": "Punto de venta de una tienda de manga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
